@@ -1,0 +1,51 @@
+/* HEADER */
+.header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    border-bottom: 2px solid #060610;
+}
+
+
+.quote {
+    font-weight: normal;
+}
+
+
+/* CREATE NEW LISTING */
+.create {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+#episode-input,
+#writer-input {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+/* EPISODE LISTING */
+.list-title, th {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+th {
+    font-size: 20px;
+}
+
+td {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+/* EDIT LISTING */
+#revise-episode-input,
+#revise-writer-input {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+/* FOOTER */
+.copyright {
+    font-family: 'Oswald', sans-serif;
+}

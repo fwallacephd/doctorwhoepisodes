@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   <!--META TAGS-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="doctor who list" content="Doctor Who Episode List"/>
+
+    <title>Doctor Who Fan Favorites</title>
+
+    <!-- Bootstrap, Fonts, CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Shadows+Into+Light" rel="stylesheet">
+
+    </head>
+    <body>
+    <div class="container-fluid">
+    <section class="image">
+        <div class="row">
+            <div class="col-md-12 text-center">
+               <br>
+               <img src="whobanner.jpg" alt="Doctor Who Banner">
+               <br>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="header">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <br>
+                <h1>Doctor Who Fan Favorite<br>Episode List</h1>
+                <p class="quote">“People assume that time is a strict progression of cause to effect, <br>but *actually* from a non-linear, non-subjective viewpoint - it's more like a big ball of wibbly wobbly... time-y wimey... stuff.” - The Doctor, "Blink"</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="create-display">
+       <div class="row create">
+          <div class="col-md-3"></div>
+           <div class="col-md-6 text-center">
+              <br>
+              <h3>Create New Episode Listing</h3>
+              <div class="episode">
+                  <label>Episode Name: </label>
+                  <br>
+                  <input id="episode-input" name="episode-name" type="text">
+              </div>
+              <div class="writer">
+                  <label>Writer Name: </label>
+                  <br>
+                  <input id="writer-input" name="writer-name" type="text">
+            </div>
+            <div class="doctor">
+            <label>Doctor Number: </label>
+            <br>
+            <select name="doctor">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">War Doctor</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+            </select>
+            </div>
+            <div class="submit1">
+                <div class="submit">
+                    <br>
+                    <button type="submit" id="create-submit" class="btn btn-dark">Submit</button>
+                </div>
+            </div>
+            </div>
+           <div class="col-md-12"></div>
+       </div>
+    </section>
+
+    <section id="view-list">
+        <div class="row">
+            <div class="col-md-12">
+               <br>
+                <h2 class="text-center list-title">Episode List</h2>
+                <table class="table table-bordered text-center">
+                   <thead>
+                      <tr>
+                        <th>Episode Name</th>
+                        <th>Writer Name</th>
+                        <th>Doctor Number</th>
+                        <th>Edit</th>
+                      </tr>
+                </thead>
+                <tbody>
+                      <tr>
+                        <td>Blink</td>
+                        <td>Moffat</td>
+                        <td>10</td>
+                        <td>Edit</td>
+                      </tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+    </section>
+
+    <section id="edit-display">
+       <div class="row create">
+          <div class="col-md-3"></div>
+           <div class="col-md-6 text-center">
+              <br>
+              <h3>Edit Episode Listing</h3>
+              <div class="episode">
+                  <label>Episode Name: </label>
+                  <br>
+                  <input id="revise-episode-input" name="episode-name" type="text">
+              </div>
+              <div class="writer">
+                  <label>Writer Name: </label>
+                  <br>
+                  <input id="revise-writer-input" name="writer-name" type="text">
+            </div>
+            <div class="doctor">
+            <label>Doctor Number: </label>
+            <br>
+            <select name="doctor">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">War Doctor</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+            </select>
+            </div>
+            <div class="submit1">
+                <div class="submit">
+                    <br>
+                    <button type="submit" id="edit-submit" class="btn btn-dark">Submit</button>
+                    <button type="button" id="delete" class="btn btn-dark">Delete</button>
+                </div>
+            </div>
+            </div>
+           <div class="col-md-12"></div>
+       </div>
+    </section>
+
+    <section id="footer">
+        <div class="row copyright">
+         <br>
+       <div class="col-md-12">
+        <br>
+        <br>
+         <p class="copyright text-center"><strong>Made with a <span class="white"> Sonic Screwdriver </span> by Faith H. Wallace, Ph.D., &copy;  2018 • Follow Me <i class="fab fa-twitter"></i> </strong><a class="twitter-link" href="https://twitter.com/fwallacephd" data-show-count="false">@fwallacephd</a></p>
+       </div>
+      <br>
+    </div>
+    </section>
+
+    </div>
+    <script src="main.js"></script>
+    </body>
+</html>
