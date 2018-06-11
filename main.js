@@ -12,6 +12,9 @@ $(".back").on("click", function(){
     $("#create-display").show();
     $("#view-list").hide();
     $("#edit-display").hide();
+     $("#revise-episode-input").val();
+    $("#revise-writer-input").val();
+    $("#select-doctor").val(1);
 });
 
 let baseUrl = "https://doctor-who-episode-list.firebaseio.com";
