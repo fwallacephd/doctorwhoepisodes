@@ -23,6 +23,11 @@
     font-size: 30px;
 }
 
+.underline {
+    text-decoration: underline;
+    color: blue;
+}
+
 /* EPISODE LISTING */
 .list-title, th {
     font-family: 'Oswald', sans-serif;
@@ -38,11 +43,21 @@ td {
     font-size: 30px;
 }
 
+.back {
+    text-decoration: underline;
+    color: blue;
+}
+
 /* EDIT LISTING */
 #revise-episode-input,
 #revise-writer-input {
     font-family: 'Shadows Into Light', cursive;
     font-size: 30px;
+}
+
+.edit{
+    text-decoration: underline;
+    color: blue;
 }
 
 /* FOOTER */

@@ -61,6 +61,7 @@
            <div class="col-md-6 text-center">
               <br>
               <h3>Create New Episode Listing</h3>
+              <h6>Take a look at the current list <span class="underline">HERE</span></h6>
               <div class="episode">
                   <label>Episode Name: </label>
                   <br>
@@ -86,7 +87,7 @@
               <option value="9">9</option>
               <option value="10">10</option>
               <option value="11">11</option>
-              <option value="12">War Doctor</option>
+              <option value="War">War Doctor</option>
               <option value="12">12</option>
               <option value="13">13</option>
             </select>
@@ -107,6 +108,7 @@
             <div class="col-md-12">
                <br>
                 <h2 class="text-center list-title">Episode List</h2>
+                <h6 class="text-center list-title">Create a new listing <span class="back">HERE</span></h6>
                 <table class="table table-bordered text-center">
                    <thead>
                       <tr>
@@ -116,12 +118,12 @@
                         <th>Edit</th>
                       </tr>
                 </thead>
-                <tbody>
+                <tbody class="table-body">
                       <tr>
-                        <td>Blink</td>
-                        <td>Moffat</td>
-                        <td>10</td>
-                        <td>Edit</td>
+                        <td class="title">Blink</td>
+                        <td class="writer">Moffat</td>
+                        <td class="number">10</td>
+                        <td class="edit">Edit</td>
                       </tr>
                 </tbody>
             </table>
@@ -148,7 +150,7 @@
             <div class="doctor">
             <label>Doctor Number: </label>
             <br>
-            <select name="doctor">
+            <select id="select-doctor" name="doctor">
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -160,7 +162,7 @@
               <option value="9">9</option>
               <option value="10">10</option>
               <option value="11">11</option>
-              <option value="12">War Doctor</option>
+              <option value="War">War Doctor</option>
               <option value="12">12</option>
               <option value="13">13</option>
             </select>
@@ -190,6 +192,7 @@
     </section>
 
     </div>
+    <script src="jquery.js"></script>
     <script src="main.js"></script>
     </body>
 </html>
